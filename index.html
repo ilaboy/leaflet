@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Hurricane Maria Leaflet</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Leaflet CSS-->
+    <link rel="stylesheet" href="assets/leaflet/leaflet.css"/>
+    <!--leaflet script-->
+    <script src="assets/leaflet/leaflet.js"></script>
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+	</head>
+	
+  <!-- Load Esri Leaflet from Content Delivery Network (CDN) -->
+  <script src="https://unpkg.com/esri-leaflet@2.3.2/dist/esri-leaflet.js"
+  integrity="sha512-6LVib9wGnqVKIClCduEwsCub7iauLXpwrd5njR2J507m3A2a4HXJDLMiSZzjcksag3UluIfuW1KzuWVI5n/cuQ=="
+  crossorigin=""></script>
+
+  <style>
+    body { margin:0; padding:0; }
+    #mapid {
+			width: 80%;
+			height: 550px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+    .info {
+			padding: 6px 8px;
+			font: 16px/18px Calibri, Garamond, sans-serif;
+			background: white;
+			background: rgba(255,255,255,0.8);
+			box-shadow: 0 0 15px rgba(0,0,0,0.2);
+			border-radius: 5px;
+		}
+		.info h4 {
+			margin: 0 0 5px;
+			color: #777;
+		}
+    .legend {
+    			text-align: left;
+    			line-height: 18px;
+    			color: #555;
+    		}
+    .legend i {
+    		width: 18px;
+    		height: 18px;
+    		float: left;
+    		margin-right: 8px;
+    		opacity: 0.9;
+    		}
+  </style>
+</head>
+<body>
+
+<div id="mapid"></div>
+
+  <script>
+    var mymap = L.map('mapid').setView([26, -60], 3.5);
+    var layer = L.esri.basemapLayer('Imagery').addTo(mymap);
+    //Null variable to hold crossing point data
+    var crossingPoints = null;
+    // Load GeoJSON from an external file
+      $.getJSON("assets/json/point.json", function(data){
+    // Add GeoJSON layer to the map once the file is loaded
+    crossingPoints = L.geoJson(data,{
+                onEachFeature: function (feature, layer) {
+                  layer.bindPopup("Storm Name: " + feature.properties.STORMNAME + "<br>Storm Type: " + feature.properties.STORMTYPE + "<br>Date: " + feature.properties.MONTH + " " + feature.properties.DAY + ", " + feature.properties.YEAR);
+                  },
+                pointToLayer: function (feature, latlng) {
+                  var marker = L.marker(latlng,{icon: mariaIcon});
+                  return marker;
+                  }
+                }).addTo(mymap);
+              });
+
+
+    //Icon
+    var mariaIcon = L.icon({
+      iconUrl: 'images/hurricane-icon.png',
+      iconSize: [13,13],
+      iconAnchor:[15,15],
+      popupAnchor: [0,-6]
+    });
+
+    //Add path data
+    $.getJSON("assets/json/path.json", function(pathdata){
+      L.geoJson(pathdata, {
+        style: function (feature) {
+          return {color: "black", weight: 2};
+        }
+      }
+    ).addTo(mymap);
+  });
+
+    //Add winds data
+    $.getJSON("assets/json/wind.json", function(winddata){
+      L.geoJson(winddata, {
+        style: function (feature) {
+          var fillColor,
+          radi = feature.properties.RADII;
+          if ( radi > 63 ) fillColor = "#C0392B";
+        else if ( radi > 49 ) fillColor = "#F7DC6F";
+        else if ( radi > 33 ) fillColor = "#2ECC71";
+        else fillColor = "#85929E";  // no data
+        return { color: "#999", weight: 1, fillColor: fillColor, fillOpacity: .4 };
+      },
+      onEachFeature: function( feature, layer ){
+      layer.bindPopup(feature.properties.STORMID)
+    }
+  }  ).addTo(mymap);
+});
+
+
+
+  // control that shows info in the white info box in the top right
+  	var info = L.control();
+
+  	info.onAdd = function (mymap) {
+  		this._div = L.DomUtil.create('div', 'info');
+  		this.update();
+  		return this._div;
+  	};
+
+
+  	info.update = function (props) {
+  		this._div.innerHTML = '<strong>Hurricane Maria</strong> <br> 2017 Hurricane Season';
+  	};
+
+  	info.addTo(mymap);
+  </script>
+</body>
+</html>

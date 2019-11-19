@@ -1,0 +1,75 @@
+{
+    "version": 8,
+    "name": "World in Blue",
+    "metadata": {
+        "mapbox:autocomposite": true,
+        "mapbox:type": "template",
+        "mapbox:sdk-support": {
+            "js": "0.54.0",
+            "android": "7.4.0",
+            "ios": "4.11.0"
+        },
+        "mapbox:groups": {},
+        "mapbox:trackposition": true
+    },
+    "center": [-92.36556663429599, 39.82559536727689],
+    "zoom": 3.6927096926134046,
+    "bearing": 0,
+    "pitch": 0,
+    "light": {"anchor": "viewport", "color": "hsl(0, 0%, 0%)"},
+    "sources": {
+        "mapbox://mapbox.terrain-rgb": {
+            "url": "mapbox://mapbox.terrain-rgb",
+            "type": "raster-dem",
+            "tileSize": 256
+        },
+        "composite": {
+            "url": "mapbox://mapbox.mapbox-streets-v8",
+            "type": "vector"
+        }
+    },
+    "sprite": "mapbox://sprites/idalislaboy/ck2lc1ng304ms1cqix28hr1tf/ck2u8j60r58fu0sgyxrigm3cu",
+    "glyphs": "mapbox://fonts/idalislaboy/{fontstack}/{range}.pbf",
+    "layers": [
+        {
+            "id": "background",
+            "type": "background",
+            "layout": {"visibility": "visible"},
+            "paint": {
+                "background-color": "hsl(203, 100%, 33%)",
+                "background-opacity": 1
+            }
+        },
+        {
+            "id": "water",
+            "type": "fill",
+            "source": "composite",
+            "source-layer": "water",
+            "layout": {"visibility": "visible"},
+            "paint": {
+                "fill-color": "hsl(209, 97%, 19%)",
+                "fill-outline-color": "hsl(203, 97%, 22%)",
+                "fill-opacity": 1,
+                "fill-translate": [0, 0]
+            }
+        },
+        {
+            "id": "mapbox-terrain-rgb",
+            "type": "hillshade",
+            "source": "mapbox://mapbox.terrain-rgb",
+            "layout": {},
+            "paint": {
+                "hillshade-exaggeration": 0.44,
+                "hillshade-illumination-direction": 300,
+                "hillshade-shadow-color": "hsl(154, 66%, 29%)",
+                "hillshade-highlight-color": "hsl(105, 94%, 52%)"
+            }
+        }
+    ],
+    "created": "2019-11-05T04:07:49.263Z",
+    "id": "ck2lc1ng304ms1cqix28hr1tf",
+    "modified": "2019-11-17T00:29:23.841Z",
+    "owner": "idalislaboy",
+    "visibility": "public",
+    "draft": false
+}

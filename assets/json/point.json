@@ -1,0 +1,1983 @@
+{
+  "type" : "FeatureCollection",
+  "crs" : {
+    "type" : "name",
+    "properties" : {
+      "name" : "EPSG:3395"
+    }
+  },
+  "features" : [
+    {
+      "type" : "Feature",
+      "id" : 0,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -49.700000762939453,
+          12.199999809265137
+        ]
+      },
+      "properties" : {
+        "FID" : 0,
+        "STORMNAME" : "    INVEST",
+        "DTG" : 2017091612,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 16,
+        "HHMM" : "1200",
+        "TAU" : 0,
+        "MSLP" : 1006,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Tropical Depression",
+        "INTENSITY" : 30,
+        "SS" : 0,
+        "LAT" : 12.199999999999999,
+        "LON" : -49.700000000000003
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 1,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -51.700000762939453,
+          12.199999809265137
+        ]
+      },
+      "properties" : {
+        "FID" : 1,
+        "STORMNAME" : "   FIFTEEN",
+        "DTG" : 2017091618,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 16,
+        "HHMM" : "1800",
+        "TAU" : 0,
+        "MSLP" : 1004,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Tropical Storm",
+        "INTENSITY" : 40,
+        "SS" : 0,
+        "LAT" : 12.199999999999999,
+        "LON" : -51.700000000000003
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 2,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -53.099998474121094,
+          12.399999618530273
+        ]
+      },
+      "properties" : {
+        "FID" : 2,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017091700,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 17,
+        "HHMM" : "0000",
+        "TAU" : 0,
+        "MSLP" : 1002,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Tropical Storm",
+        "INTENSITY" : 45,
+        "SS" : 0,
+        "LAT" : 12.4,
+        "LON" : -53.100000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 3,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -54.400001525878906,
+          12.800000190734863
+        ]
+      },
+      "properties" : {
+        "FID" : 3,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017091706,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 17,
+        "HHMM" : "0600",
+        "TAU" : 0,
+        "MSLP" : 994,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Tropical Storm",
+        "INTENSITY" : 55,
+        "SS" : 0,
+        "LAT" : 12.800000000000001,
+        "LON" : -54.399999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 4,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -55.700000762939453,
+          13.300000190734863
+        ]
+      },
+      "properties" : {
+        "FID" : 4,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017091712,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 17,
+        "HHMM" : "1200",
+        "TAU" : 0,
+        "MSLP" : 990,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Tropical Storm",
+        "INTENSITY" : 60,
+        "SS" : 0,
+        "LAT" : 13.300000000000001,
+        "LON" : -55.700000000000003
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 5,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -57,
+          13.600000381469727
+        ]
+      },
+      "properties" : {
+        "FID" : 5,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017091718,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 17,
+        "HHMM" : "1800",
+        "TAU" : 0,
+        "MSLP" : 986,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 1",
+        "INTENSITY" : 65,
+        "SS" : 1,
+        "LAT" : 13.6,
+        "LON" : -57
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 6,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -58,
+          14
+        ]
+      },
+      "properties" : {
+        "FID" : 6,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017091800,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 18,
+        "HHMM" : "0000",
+        "TAU" : 0,
+        "MSLP" : 979,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 1",
+        "INTENSITY" : 75,
+        "SS" : 1,
+        "LAT" : 14,
+        "LON" : -58
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 7,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -59,
+          14.300000190734863
+        ]
+      },
+      "properties" : {
+        "FID" : 7,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017091806,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 18,
+        "HHMM" : "0600",
+        "TAU" : 0,
+        "MSLP" : 977,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 1",
+        "INTENSITY" : 80,
+        "SS" : 1,
+        "LAT" : 14.300000000000001,
+        "LON" : -59
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 8,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -59.700000762939453,
+          14.5
+        ]
+      },
+      "properties" : {
+        "FID" : 8,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017091812,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 18,
+        "HHMM" : "1200",
+        "TAU" : 0,
+        "MSLP" : 967,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 3",
+        "INTENSITY" : 100,
+        "SS" : 3,
+        "LAT" : 14.5,
+        "LON" : -59.700000000000003
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 9,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -60.400001525878906,
+          14.899999618530273
+        ]
+      },
+      "properties" : {
+        "FID" : 9,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017091818,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 18,
+        "HHMM" : "1800",
+        "TAU" : 0,
+        "MSLP" : 956,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 3",
+        "INTENSITY" : 110,
+        "SS" : 3,
+        "LAT" : 14.9,
+        "LON" : -60.399999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 10,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -61.099998474121094,
+          15.300000190734863
+        ]
+      },
+      "properties" : {
+        "FID" : 10,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017091900,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 19,
+        "HHMM" : "0000",
+        "TAU" : 0,
+        "MSLP" : 924,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 5",
+        "INTENSITY" : 145,
+        "SS" : 5,
+        "LAT" : 15.300000000000001,
+        "LON" : -61.100000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 11,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -61.299999237060547,
+          15.399999618530273
+        ]
+      },
+      "properties" : {
+        "FID" : 11,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017091901,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 19,
+        "HHMM" : "0100",
+        "TAU" : 0,
+        "MSLP" : 922,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 5",
+        "INTENSITY" : 145,
+        "SS" : 5,
+        "LAT" : 15.4,
+        "LON" : -61.299999999999997
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 12,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -61.900001525878906,
+          15.699999809265137
+        ]
+      },
+      "properties" : {
+        "FID" : 12,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017091906,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 19,
+        "HHMM" : "0600",
+        "TAU" : 0,
+        "MSLP" : 940,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 4",
+        "INTENSITY" : 135,
+        "SS" : 4,
+        "LAT" : 15.699999999999999,
+        "LON" : -61.899999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 13,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -62.700000762939453,
+          16.100000381469727
+        ]
+      },
+      "properties" : {
+        "FID" : 13,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017091912,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 19,
+        "HHMM" : "1200",
+        "TAU" : 0,
+        "MSLP" : 931,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 5",
+        "INTENSITY" : 140,
+        "SS" : 5,
+        "LAT" : 16.100000000000001,
+        "LON" : -62.700000000000003
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 14,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -63.5,
+          16.600000381469727
+        ]
+      },
+      "properties" : {
+        "FID" : 14,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017091918,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 19,
+        "HHMM" : "1800",
+        "TAU" : 0,
+        "MSLP" : 920,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 5",
+        "INTENSITY" : 145,
+        "SS" : 5,
+        "LAT" : 16.600000000000001,
+        "LON" : -63.5
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 15,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.300003051757813,
+          17
+        ]
+      },
+      "properties" : {
+        "FID" : 15,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092000,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 20,
+        "HHMM" : "0000",
+        "TAU" : 0,
+        "MSLP" : 909,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 5",
+        "INTENSITY" : 150,
+        "SS" : 5,
+        "LAT" : 17,
+        "LON" : -64.299999999999997
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 16,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.699996948242188,
+          17.299999237060547
+        ]
+      },
+      "properties" : {
+        "FID" : 16,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092003,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 20,
+        "HHMM" : "0300",
+        "TAU" : 0,
+        "MSLP" : 908,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 5",
+        "INTENSITY" : 150,
+        "SS" : 5,
+        "LAT" : 17.300000000000001,
+        "LON" : -64.700000000000003
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 17,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.099998474121094,
+          17.600000381469727
+        ]
+      },
+      "properties" : {
+        "FID" : 17,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092006,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 20,
+        "HHMM" : "0600",
+        "TAU" : 0,
+        "MSLP" : 913,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 5",
+        "INTENSITY" : 140,
+        "SS" : 5,
+        "LAT" : 17.600000000000001,
+        "LON" : -65.099999999999994
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 18,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -65.900001525878906,
+          18
+        ]
+      },
+      "properties" : {
+        "FID" : 18,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092010,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 20,
+        "HHMM" : "1000",
+        "TAU" : 0,
+        "MSLP" : 920,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 4",
+        "INTENSITY" : 135,
+        "SS" : 4,
+        "LAT" : 18,
+        "LON" : -65.900000000000006
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 19,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -66.199996948242188,
+          18.200000762939453
+        ]
+      },
+      "properties" : {
+        "FID" : 19,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092012,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 20,
+        "HHMM" : "1200",
+        "TAU" : 0,
+        "MSLP" : 935,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 4",
+        "INTENSITY" : 115,
+        "SS" : 4,
+        "LAT" : 18.199999999999999,
+        "LON" : -66.200000000000003
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 20,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -67,
+          18.600000381469727
+        ]
+      },
+      "properties" : {
+        "FID" : 20,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092018,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 20,
+        "HHMM" : "1800",
+        "TAU" : 0,
+        "MSLP" : 959,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 2",
+        "INTENSITY" : 95,
+        "SS" : 2,
+        "LAT" : 18.600000000000001,
+        "LON" : -67
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 21,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -67.599998474121094,
+          19
+        ]
+      },
+      "properties" : {
+        "FID" : 21,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092100,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 21,
+        "HHMM" : "0000",
+        "TAU" : 0,
+        "MSLP" : 958,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 2",
+        "INTENSITY" : 95,
+        "SS" : 2,
+        "LAT" : 19,
+        "LON" : -67.599999999999994
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 22,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -68.199996948242188,
+          19.399999618530273
+        ]
+      },
+      "properties" : {
+        "FID" : 22,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092106,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 21,
+        "HHMM" : "0600",
+        "TAU" : 0,
+        "MSLP" : 959,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 3",
+        "INTENSITY" : 100,
+        "SS" : 3,
+        "LAT" : 19.399999999999999,
+        "LON" : -68.200000000000003
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 23,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -68.800003051757813,
+          19.899999618530273
+        ]
+      },
+      "properties" : {
+        "FID" : 23,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092112,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 21,
+        "HHMM" : "1200",
+        "TAU" : 0,
+        "MSLP" : 959,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 3",
+        "INTENSITY" : 100,
+        "SS" : 3,
+        "LAT" : 19.899999999999999,
+        "LON" : -68.799999999999997
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 24,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -69.5,
+          20.5
+        ]
+      },
+      "properties" : {
+        "FID" : 24,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092118,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 21,
+        "HHMM" : "1800",
+        "TAU" : 0,
+        "MSLP" : 960,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 3",
+        "INTENSITY" : 105,
+        "SS" : 3,
+        "LAT" : 20.5,
+        "LON" : -69.5
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 25,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -70,
+          20.799999237060547
+        ]
+      },
+      "properties" : {
+        "FID" : 25,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092200,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 22,
+        "HHMM" : "0000",
+        "TAU" : 0,
+        "MSLP" : 953,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 3",
+        "INTENSITY" : 110,
+        "SS" : 3,
+        "LAT" : 20.800000000000001,
+        "LON" : -70
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 26,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -70.5,
+          21.200000762939453
+        ]
+      },
+      "properties" : {
+        "FID" : 26,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092206,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 22,
+        "HHMM" : "0600",
+        "TAU" : 0,
+        "MSLP" : 959,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 3",
+        "INTENSITY" : 110,
+        "SS" : 3,
+        "LAT" : 21.199999999999999,
+        "LON" : -70.5
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 27,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -70.900001525878906,
+          21.899999618530273
+        ]
+      },
+      "properties" : {
+        "FID" : 27,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092212,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 22,
+        "HHMM" : "1200",
+        "TAU" : 0,
+        "MSLP" : 958,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 3",
+        "INTENSITY" : 110,
+        "SS" : 3,
+        "LAT" : 21.899999999999999,
+        "LON" : -70.900000000000006
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 28,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -71.199996948242188,
+          22.799999237060547
+        ]
+      },
+      "properties" : {
+        "FID" : 28,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092218,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 22,
+        "HHMM" : "1800",
+        "TAU" : 0,
+        "MSLP" : 959,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 3",
+        "INTENSITY" : 110,
+        "SS" : 3,
+        "LAT" : 22.800000000000001,
+        "LON" : -71.200000000000003
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 29,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -71.599998474121094,
+          23.700000762939453
+        ]
+      },
+      "properties" : {
+        "FID" : 29,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092300,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 23,
+        "HHMM" : "0000",
+        "TAU" : 0,
+        "MSLP" : 953,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 3",
+        "INTENSITY" : 105,
+        "SS" : 3,
+        "LAT" : 23.699999999999999,
+        "LON" : -71.599999999999994
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 30,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -71.900001525878906,
+          24.399999618530273
+        ]
+      },
+      "properties" : {
+        "FID" : 30,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092306,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 23,
+        "HHMM" : "0600",
+        "TAU" : 0,
+        "MSLP" : 952,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 3",
+        "INTENSITY" : 100,
+        "SS" : 3,
+        "LAT" : 24.399999999999999,
+        "LON" : -71.900000000000006
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 31,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -72.099998474121094,
+          25.100000381469727
+        ]
+      },
+      "properties" : {
+        "FID" : 31,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092312,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 23,
+        "HHMM" : "1200",
+        "TAU" : 0,
+        "MSLP" : 952,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 3",
+        "INTENSITY" : 100,
+        "SS" : 3,
+        "LAT" : 25.100000000000001,
+        "LON" : -72.099999999999994
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 32,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -72.300003051757813,
+          25.899999618530273
+        ]
+      },
+      "properties" : {
+        "FID" : 32,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092318,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 23,
+        "HHMM" : "1800",
+        "TAU" : 0,
+        "MSLP" : 952,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 3",
+        "INTENSITY" : 100,
+        "SS" : 3,
+        "LAT" : 25.899999999999999,
+        "LON" : -72.299999999999997
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 33,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -72.400001525878906,
+          26.600000381469727
+        ]
+      },
+      "properties" : {
+        "FID" : 33,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092400,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 24,
+        "HHMM" : "0000",
+        "TAU" : 0,
+        "MSLP" : 945,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 3",
+        "INTENSITY" : 100,
+        "SS" : 3,
+        "LAT" : 26.600000000000001,
+        "LON" : -72.400000000000006
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 34,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -72.599998474121094,
+          27.5
+        ]
+      },
+      "properties" : {
+        "FID" : 34,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092406,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 24,
+        "HHMM" : "0600",
+        "TAU" : 0,
+        "MSLP" : 942,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 2",
+        "INTENSITY" : 95,
+        "SS" : 2,
+        "LAT" : 27.5,
+        "LON" : -72.599999999999994
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 35,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -72.800003051757813,
+          28.399999618530273
+        ]
+      },
+      "properties" : {
+        "FID" : 35,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092412,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 24,
+        "HHMM" : "1200",
+        "TAU" : 0,
+        "MSLP" : 947,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 2",
+        "INTENSITY" : 95,
+        "SS" : 2,
+        "LAT" : 28.399999999999999,
+        "LON" : -72.799999999999997
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 36,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -72.900001525878906,
+          29.100000381469727
+        ]
+      },
+      "properties" : {
+        "FID" : 36,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092418,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 24,
+        "HHMM" : "1800",
+        "TAU" : 0,
+        "MSLP" : 943,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 2",
+        "INTENSITY" : 90,
+        "SS" : 2,
+        "LAT" : 29.100000000000001,
+        "LON" : -72.900000000000006
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 37,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -72.900001525878906,
+          29.700000762939453
+        ]
+      },
+      "properties" : {
+        "FID" : 37,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092500,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 25,
+        "HHMM" : "0000",
+        "TAU" : 0,
+        "MSLP" : 947,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 2",
+        "INTENSITY" : 85,
+        "SS" : 2,
+        "LAT" : 29.699999999999999,
+        "LON" : -72.900000000000006
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 38,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -72.900001525878906,
+          30.299999237060547
+        ]
+      },
+      "properties" : {
+        "FID" : 38,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092506,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 25,
+        "HHMM" : "0600",
+        "TAU" : 0,
+        "MSLP" : 954,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 1",
+        "INTENSITY" : 75,
+        "SS" : 1,
+        "LAT" : 30.300000000000001,
+        "LON" : -72.900000000000006
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 39,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -73,
+          30.799999237060547
+        ]
+      },
+      "properties" : {
+        "FID" : 39,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092512,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 25,
+        "HHMM" : "1200",
+        "TAU" : 0,
+        "MSLP" : 961,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 1",
+        "INTENSITY" : 70,
+        "SS" : 1,
+        "LAT" : 30.800000000000001,
+        "LON" : -73
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 40,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -73.099998474121094,
+          31.399999618530273
+        ]
+      },
+      "properties" : {
+        "FID" : 40,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092518,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 25,
+        "HHMM" : "1800",
+        "TAU" : 0,
+        "MSLP" : 966,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 1",
+        "INTENSITY" : 70,
+        "SS" : 1,
+        "LAT" : 31.399999999999999,
+        "LON" : -73.099999999999994
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 41,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -73.099998474121094,
+          32
+        ]
+      },
+      "properties" : {
+        "FID" : 41,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092600,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 26,
+        "HHMM" : "0000",
+        "TAU" : 0,
+        "MSLP" : 966,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 1",
+        "INTENSITY" : 70,
+        "SS" : 1,
+        "LAT" : 32,
+        "LON" : -73.099999999999994
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 42,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -73.099998474121094,
+          32.599998474121094
+        ]
+      },
+      "properties" : {
+        "FID" : 42,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092606,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 26,
+        "HHMM" : "0600",
+        "TAU" : 0,
+        "MSLP" : 970,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 1",
+        "INTENSITY" : 65,
+        "SS" : 1,
+        "LAT" : 32.600000000000001,
+        "LON" : -73.099999999999994
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 43,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -73.099998474121094,
+          33.299999237060547
+        ]
+      },
+      "properties" : {
+        "FID" : 43,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092612,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 26,
+        "HHMM" : "1200",
+        "TAU" : 0,
+        "MSLP" : 970,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 1",
+        "INTENSITY" : 65,
+        "SS" : 1,
+        "LAT" : 33.299999999999997,
+        "LON" : -73.099999999999994
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 44,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -73.099998474121094,
+          33.900001525878906
+        ]
+      },
+      "properties" : {
+        "FID" : 44,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092618,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 26,
+        "HHMM" : "1800",
+        "TAU" : 0,
+        "MSLP" : 975,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 1",
+        "INTENSITY" : 65,
+        "SS" : 1,
+        "LAT" : 33.899999999999999,
+        "LON" : -73.099999999999994
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 45,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -73,
+          34.400001525878906
+        ]
+      },
+      "properties" : {
+        "FID" : 45,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092700,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 27,
+        "HHMM" : "0000",
+        "TAU" : 0,
+        "MSLP" : 975,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 1",
+        "INTENSITY" : 65,
+        "SS" : 1,
+        "LAT" : 34.399999999999999,
+        "LON" : -73
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 46,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -72.900001525878906,
+          34.900001525878906
+        ]
+      },
+      "properties" : {
+        "FID" : 46,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092706,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 27,
+        "HHMM" : "0600",
+        "TAU" : 0,
+        "MSLP" : 976,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 1",
+        "INTENSITY" : 65,
+        "SS" : 1,
+        "LAT" : 34.899999999999999,
+        "LON" : -72.900000000000006
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 47,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -72.800003051757813,
+          35.400001525878906
+        ]
+      },
+      "properties" : {
+        "FID" : 47,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092712,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 27,
+        "HHMM" : "1200",
+        "TAU" : 0,
+        "MSLP" : 977,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 1",
+        "INTENSITY" : 65,
+        "SS" : 1,
+        "LAT" : 35.399999999999999,
+        "LON" : -72.799999999999997
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 48,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -72.599998474121094,
+          36
+        ]
+      },
+      "properties" : {
+        "FID" : 48,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092718,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 27,
+        "HHMM" : "1800",
+        "TAU" : 0,
+        "MSLP" : 979,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 1",
+        "INTENSITY" : 65,
+        "SS" : 1,
+        "LAT" : 36,
+        "LON" : -72.599999999999994
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 49,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -72.199996948242188,
+          36.599998474121094
+        ]
+      },
+      "properties" : {
+        "FID" : 49,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092800,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 28,
+        "HHMM" : "0000",
+        "TAU" : 0,
+        "MSLP" : 979,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Category 1",
+        "INTENSITY" : 65,
+        "SS" : 1,
+        "LAT" : 36.600000000000001,
+        "LON" : -72.200000000000003
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 50,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -71.300003051757813,
+          36.700000762939453
+        ]
+      },
+      "properties" : {
+        "FID" : 50,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092806,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 28,
+        "HHMM" : "0600",
+        "TAU" : 0,
+        "MSLP" : 982,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Tropical Storm",
+        "INTENSITY" : 60,
+        "SS" : 0,
+        "LAT" : 36.700000000000003,
+        "LON" : -71.299999999999997
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 51,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -70,
+          36.799999237060547
+        ]
+      },
+      "properties" : {
+        "FID" : 51,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092812,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 28,
+        "HHMM" : "1200",
+        "TAU" : 0,
+        "MSLP" : 982,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Tropical Storm",
+        "INTENSITY" : 60,
+        "SS" : 0,
+        "LAT" : 36.799999999999997,
+        "LON" : -70
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 52,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -68.599998474121094,
+          36.799999237060547
+        ]
+      },
+      "properties" : {
+        "FID" : 52,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092818,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 28,
+        "HHMM" : "1800",
+        "TAU" : 0,
+        "MSLP" : 985,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Tropical Storm",
+        "INTENSITY" : 55,
+        "SS" : 0,
+        "LAT" : 36.799999999999997,
+        "LON" : -68.599999999999994
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 53,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -66.800003051757813,
+          36.900001525878906
+        ]
+      },
+      "properties" : {
+        "FID" : 53,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092900,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 29,
+        "HHMM" : "0000",
+        "TAU" : 0,
+        "MSLP" : 985,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Tropical Storm",
+        "INTENSITY" : 55,
+        "SS" : 0,
+        "LAT" : 36.899999999999999,
+        "LON" : -66.799999999999997
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 54,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -64.599998474121094,
+          37
+        ]
+      },
+      "properties" : {
+        "FID" : 54,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092906,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 29,
+        "HHMM" : "0600",
+        "TAU" : 0,
+        "MSLP" : 987,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Tropical Storm",
+        "INTENSITY" : 50,
+        "SS" : 0,
+        "LAT" : 37,
+        "LON" : -64.599999999999994
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 55,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -62,
+          37
+        ]
+      },
+      "properties" : {
+        "FID" : 55,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092912,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 29,
+        "HHMM" : "1200",
+        "TAU" : 0,
+        "MSLP" : 988,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Tropical Storm",
+        "INTENSITY" : 50,
+        "SS" : 0,
+        "LAT" : 37,
+        "LON" : -62
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 56,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -59,
+          37.400001525878906
+        ]
+      },
+      "properties" : {
+        "FID" : 56,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017092918,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 29,
+        "HHMM" : "1800",
+        "TAU" : 0,
+        "MSLP" : 988,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Tropical Storm",
+        "INTENSITY" : 50,
+        "SS" : 0,
+        "LAT" : 37.399999999999999,
+        "LON" : -59
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 57,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -55.599998474121094,
+          38.099998474121094
+        ]
+      },
+      "properties" : {
+        "FID" : 57,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017093000,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 30,
+        "HHMM" : "0000",
+        "TAU" : 0,
+        "MSLP" : 988,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Tropical Storm",
+        "INTENSITY" : 50,
+        "SS" : 0,
+        "LAT" : 38.100000000000001,
+        "LON" : -55.600000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 58,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -52.200000762939453,
+          39.099998474121094
+        ]
+      },
+      "properties" : {
+        "FID" : 58,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017093006,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 30,
+        "HHMM" : "0600",
+        "TAU" : 0,
+        "MSLP" : 988,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Tropical Storm",
+        "INTENSITY" : 50,
+        "SS" : 0,
+        "LAT" : 39.100000000000001,
+        "LON" : -52.200000000000003
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 59,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -48.799999237060547,
+          40
+        ]
+      },
+      "properties" : {
+        "FID" : 59,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017093012,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 30,
+        "HHMM" : "1200",
+        "TAU" : 0,
+        "MSLP" : 988,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Tropical Storm",
+        "INTENSITY" : 50,
+        "SS" : 0,
+        "LAT" : 40,
+        "LON" : -48.799999999999997
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 60,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -45.599998474121094,
+          41.200000762939453
+        ]
+      },
+      "properties" : {
+        "FID" : 60,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017093018,
+        "YEAR" : 2017,
+        "MONTH" : "SEP",
+        "DAY" : 30,
+        "HHMM" : "1800",
+        "TAU" : 0,
+        "MSLP" : 991,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Extratropical Cyclone",
+        "INTENSITY" : 45,
+        "SS" : 0,
+        "LAT" : 41.200000000000003,
+        "LON" : -45.600000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 61,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -42.599998474121094,
+          42.200000762939453
+        ]
+      },
+      "properties" : {
+        "FID" : 61,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017100100,
+        "YEAR" : 2017,
+        "MONTH" : "OCT",
+        "DAY" : 1,
+        "HHMM" : "0000",
+        "TAU" : 0,
+        "MSLP" : 994,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Extratropical Cyclone",
+        "INTENSITY" : 45,
+        "SS" : 0,
+        "LAT" : 42.200000000000003,
+        "LON" : -42.600000000000001
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 62,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -39.400001525878906,
+          43.400001525878906
+        ]
+      },
+      "properties" : {
+        "FID" : 62,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017100106,
+        "YEAR" : 2017,
+        "MONTH" : "OCT",
+        "DAY" : 1,
+        "HHMM" : "0600",
+        "TAU" : 0,
+        "MSLP" : 996,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Extratropical Cyclone",
+        "INTENSITY" : 45,
+        "SS" : 0,
+        "LAT" : 43.399999999999999,
+        "LON" : -39.399999999999999
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 63,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -35.5,
+          44.900001525878906
+        ]
+      },
+      "properties" : {
+        "FID" : 63,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017100112,
+        "YEAR" : 2017,
+        "MONTH" : "OCT",
+        "DAY" : 1,
+        "HHMM" : "1200",
+        "TAU" : 0,
+        "MSLP" : 999,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Extratropical Cyclone",
+        "INTENSITY" : 45,
+        "SS" : 0,
+        "LAT" : 44.899999999999999,
+        "LON" : -35.5
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 64,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -31,
+          46.5
+        ]
+      },
+      "properties" : {
+        "FID" : 64,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017100118,
+        "YEAR" : 2017,
+        "MONTH" : "OCT",
+        "DAY" : 1,
+        "HHMM" : "1800",
+        "TAU" : 0,
+        "MSLP" : 1003,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Extratropical Cyclone",
+        "INTENSITY" : 45,
+        "SS" : 0,
+        "LAT" : 46.5,
+        "LON" : -31
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 65,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -26.5,
+          47.5
+        ]
+      },
+      "properties" : {
+        "FID" : 65,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017100200,
+        "YEAR" : 2017,
+        "MONTH" : "OCT",
+        "DAY" : 2,
+        "HHMM" : "0000",
+        "TAU" : 0,
+        "MSLP" : 1005,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Extratropical Cyclone",
+        "INTENSITY" : 40,
+        "SS" : 0,
+        "LAT" : 47.5,
+        "LON" : -26.5
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 66,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -22,
+          48
+        ]
+      },
+      "properties" : {
+        "FID" : 66,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017100206,
+        "YEAR" : 2017,
+        "MONTH" : "OCT",
+        "DAY" : 2,
+        "HHMM" : "0600",
+        "TAU" : 0,
+        "MSLP" : 1012,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Extratropical Cyclone",
+        "INTENSITY" : 40,
+        "SS" : 0,
+        "LAT" : 48,
+        "LON" : -22
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 67,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -17,
+          48
+        ]
+      },
+      "properties" : {
+        "FID" : 67,
+        "STORMNAME" : "     MARIA",
+        "DTG" : 2017100212,
+        "YEAR" : 2017,
+        "MONTH" : "OCT",
+        "DAY" : 2,
+        "HHMM" : "1200",
+        "TAU" : 0,
+        "MSLP" : 1016,
+        "BASIN" : "AL",
+        "STORMNUM" : 15,
+        "STORMTYPE" : "Extratropical Cyclone",
+        "INTENSITY" : 30,
+        "SS" : 0,
+        "LAT" : 48,
+        "LON" : -17
+      }
+    }
+  ]
+}
