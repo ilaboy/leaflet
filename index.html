@@ -83,15 +83,6 @@
       popupAnchor: [0,-6]
     });
 
-    //Add path data
-    $.getJSON("assets/json/path.json", function(pathdata){
-      L.geoJson(pathdata, {
-        style: function (feature) {
-          return {color: "black", weight: 2};
-        }
-      }
-    ).addTo(mymap);
-  });
 
     //Add winds data
     $.getJSON("assets/json/wind.json", function(winddata){
@@ -106,14 +97,14 @@
         return { color: "#999", weight: 1, fillColor: fillColor, fillOpacity: .4 };
       },
       onEachFeature: function( feature, layer ){
-      layer.bindPopup(feature.properties.STORMID)
+      layer.bindPopup(feature.properties.RADII)
     }
   }  ).addTo(mymap);
 });
 
 
 
-  // control that shows info in the white info box in the top right
+  // info in the white info box
   	var info = L.control();
 
   	info.onAdd = function (mymap) {
